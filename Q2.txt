@@ -1,0 +1,10 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+data = np.loadtxt("sample_AAPL.txt", delimiter=",")
+plt.figure()
+plt.plot(range(len(data)),(data))
+plt.title("Apple Stock Price, Nov 2019 to Nov 2020")
+plt.xlabel("Day")
+plt.ylabel("Trading price")
+plt.show()

@@ -1,0 +1,7 @@
+import numpy as np
+data = np.loadtxt('sample_AAPL.txt')
+np.average(data)
+
+import numpy as np
+data = np.loadtxt('sample_AAPL.txt')
+np.std(data)
